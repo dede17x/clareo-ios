@@ -1,0 +1,26 @@
+name: Clareo
+options:
+  bundleIdPrefix: fr.clareogestion
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Clareo:
+    type: application
+    platform: iOS
+    sources:
+      - path: Clareo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fr.clareogestion.app
+        PRODUCT_NAME: Clareo
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: true
+        INFOPLIST_KEY_CFBundleDisplayName: Clareo
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+        INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad: UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+        ENABLE_PREVIEWS: true

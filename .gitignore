@@ -1,0 +1,8 @@
+*.key
+*.p12
+*.p8
+*.cer
+*.mobileprovision
+build/
+DerivedData/
+.DS_Store
