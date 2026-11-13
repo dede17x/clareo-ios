@@ -5,7 +5,7 @@ on:
 jobs:
   archive-and-upload:
     name: Archive, sign and upload to App Store Connect
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: maxim-lobanov/setup-xcode@v1

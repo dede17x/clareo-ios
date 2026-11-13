@@ -8,7 +8,7 @@ on:
 jobs:
   build-unsigned:
     name: Unsigned simulator build (sanity check, no secrets needed)
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: maxim-lobanov/setup-xcode@v1
